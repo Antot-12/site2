@@ -1,0 +1,144 @@
+.maintenance {
+    text-align: center;
+    padding: 290px 0;
+}
+
+.maintenance h2 {
+    font-size: 50px;
+    font-family: 'Futura PT';
+}
+
+.iq-coming h1 {
+    font-size: 80px;
+    font-family: 'Futura PT';
+    margin: 0;
+}
+
+.maintenance p,
+.iq-coming p {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iq-coming {
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iq-coming ul {
+    list-style: none;
+}
+
+.iq-coming .countdown {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: center;
+    display: inline-flex;
+}
+
+.iq-coming .countdown li {
+    display: inline-block;
+    margin: 0 20px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    width: 140px;
+    height: 150px;
+    padding: 14px;
+}
+
+.iq-coming .countdown li span {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 80px;
+    color: var(--iq-white-color);
+    position: relative;
+}
+
+.iq-coming .countdown li.seperator {
+    font-size: 50px;
+    line-height: 40px;
+    vertical-align: top;
+    margin: 16px 0px;
+    color: var(--iq-white-color);
+}
+
+.iq-coming .countdown li h6 {
+    color: var(--iq-white-color);
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.iq-coming .countdown li p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--iq-white-color);
+}
+
+.iq-coming .countdown li span:after {
+    position: absolute;
+    right: -90px;
+    top: 30px;
+    content: ":";
+    font-size: 50px;
+    color: var(--iq-white-color);
+    line-height: 50px;
+}
+
+.iq-coming .countdown li:last-child span:after {
+    content: none;
+}
+
+.iq-maintenance-text {
+    color: var(--iq-white-color);
+}
+
+body {
+    margin: 0;
+}
+
+.iq-coming-inner {
+    padding: 30px 30px 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+    box-shadow: 0px 0 30px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0px 0 30px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0px 0 30px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 30px;
+    position: relative;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+
+/*===== Scroll ======*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track /
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/ Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

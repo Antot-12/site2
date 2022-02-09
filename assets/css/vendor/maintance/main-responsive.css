@@ -1,0 +1,93 @@
+@media(max-width:992px) {
+    .maintenance {
+        padding: 150px 0;
+    }
+
+    .iq-coming .countdown li {
+        width: 91px;
+        height: 130px;
+    }
+
+    .iq-coming .countdown li span:after {
+        right: -77px;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 3px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .maintenance h2 {
+        font-size: 40px;
+    }
+
+    .iq-coming h1 {
+        font-size: 64px;
+    }
+
+    .iq-coming .countdown li span:after {
+        right: -42px;
+    }
+
+    .iq-coming .countdown li {
+        width: 54px;
+        height: 120px;
+        margin: 0 10px;
+    }
+}
+
+@media(max-width:575px) {
+    .iq-coming .countdown li span {
+        font-size: 34px;
+    }
+}
+
+@media(max-width:479px) {
+    .iq-coming h1 {
+        font-size: 34px;
+    }
+
+    .maintenance h2 {
+        font-size: 32px;
+    }
+
+    .iq-coming .countdown li {
+        margin: 10px;
+        width: auto;
+        height: 71px;
+        padding: 10px;
+        margin: 0;
+        border: none;
+    }
+
+    .iq-coming .countdown li span:after {
+        top: -14px;
+        right: -23px;
+        font-size: 30px;
+    }
+
+    .iq-coming .countdown li span {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .iq-coming .countdown li p {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: inherit;
+    }
+
+    @media(max-width:320px) {
+        .iq-coming .countdown li {
+            width: 29px;
+        }
+
+        .iq-coming .countdown li p {
+            font-size: 12px;
+        }
+    }
+
+}

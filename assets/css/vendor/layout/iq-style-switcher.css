@@ -1,0 +1,102 @@
+/*
+Iq Styles Switcher.
+*/
+
+.iq-theme-feature {
+	position: fixed;
+	top: 115px;
+	right: -100px;
+	width: 100px;
+	z-index: 20000;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.15);
+	background: #fff;
+}
+
+.iq-theme-feature.open {
+	right: 0;
+}
+
+.iq-theme-feature .iq-switchbuttontoggler {
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.15);
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	left: -40px;
+	text-align: center;
+	top: 0;
+	width: 40px;
+	background: #000;
+}
+
+ul.preset {
+	margin: 0;
+	padding: 0.938em;
+}
+
+ul.preset li {
+	list-style: none;
+}
+
+ul.preset li a {
+	color: #000;
+	display: block;
+	padding: 0.313em 0;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	background: #fff;
+	border: 1px solid #000;
+}
+
+ul.preset li a.active {
+	background: #000;
+	color: #fff;
+}
+
+.iq-theme-feature .colors {
+	list-style: none;
+	margin: 0 0 10px;
+	overflow: hidden;
+}
+
+.iq-theme-feature .colors li {
+	float: left;
+	margin: 4px 2px 0;
+}
+
+.iq-theme-feature .colors li a {
+	cursor: pointer;
+	display: block;
+	height: 17px;
+	width: 17px;
+}
+
+.dark-bg {
+	background-color: var(--iq-black) !important;
+}
+
+.light-bg {
+	background-color: var(--iq-white-color) !important;
+}
+
+@media(min-width: 1920px) {
+	.iq-theme-feature .iq-switchbuttontoggler {
+		font-size: 1.25vw;
+		height: 2.5vw;
+		line-height: 2.5vw;
+		left: -2.5vw;
+		width: 2.5vw;
+	}
+
+	.iq-theme-feature {
+		top: 7.1875vw;
+		right: -6.25vw;
+		width: 6.25vw;
+	}
+}
